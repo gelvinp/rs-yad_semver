@@ -1,0 +1,19 @@
+[package]
+name = "yad_semver"
+version = "1.0.0"
+edition = "2021"
+authors = ["Patrick Gelvin <patrick@gelvin.dev>"]
+description = "Implements a simple SemVer 2.0 implementation"
+homepage = "https://github.com/gelvinp/rs-yad_semver"
+documentation = "https://docs.rs/yad_semver"
+repository = "https://github.com/gelvinp/rs-yad_semver"
+readme = "README.md"
+license = "MIT"
+keywords = ["semver"]
+categories = ["parser-implementations"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = "1.7"
+lazy_static = "1.4.0"
